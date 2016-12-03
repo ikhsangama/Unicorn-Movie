@@ -161,7 +161,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.mnAbout:
                 Toast.makeText(getApplicationContext().getApplicationContext(),
-                        "Developer by.\n" + "Muh Isfahani Ghiyath",
+                        "Developer by.\n" + "Ikhsan Wisnuadji G",
                         Toast.LENGTH_LONG).show();
                 break;
         }
