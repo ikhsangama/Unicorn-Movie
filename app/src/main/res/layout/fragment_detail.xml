@@ -22,8 +22,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:id="@+id/imgMovie"
-                        android:src="@mipmap/ic_launcher"
-                        android:adjustViewBounds="false"
+                        android:icon="@mipmap/ic_launcher"
+                        android:adjustViewBounds="true"
                         android:scaleType="center" />
 
                     <TextView
