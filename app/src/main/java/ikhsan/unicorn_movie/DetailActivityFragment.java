@@ -117,7 +117,7 @@ public class DetailActivityFragment extends Fragment {
     private void SubRequestData(String i){
         RequestQueue queue = Volley.newRequestQueue(getActivity().getApplicationContext());
         String url = "";
-        url = "http://api.themoviedb.org/3/movie/" + i + "/videos?api_key=84fdae878d08244844414db13f7519fa";
+        url = "http://api.themoviedb.org/3/movie/" + i + "/videos?api_key=<API KEY HERE>";
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {;
             @Override
             public void onResponse(String response) {

@@ -33,7 +33,7 @@ import ikhsan.unicorn_movie.Adapter.RecyclerViewAdapter;
 
 public class MainActivity extends AppCompatActivity {
     private final String TAG = "MainActivity";
-    private final String API_Key = "84fdae878d08244844414db13f7519fa";
+    private final String API_Key = "<API KEY HERE>";
     private RecyclerView recyclerView;
     private LinearLayoutManager layoutManager;
     private RecyclerViewAdapter adapter;
